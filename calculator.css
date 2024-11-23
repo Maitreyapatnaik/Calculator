@@ -1,0 +1,95 @@
+/* General layout */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 10px;
+}
+
+
+.box {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding:10px;
+  text-align: center;
+}
+
+.display {
+  margin-bottom: 10px;
+}
+
+#d {
+  align-items: center;
+  width: 90%;
+  padding: 10px;
+  font-size: 24px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Buttons layout */
+.keys p {
+  margin: 10px 0;
+}
+
+.button {
+  padding: 15px;
+  font-size: 18px;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+/* Button colors */
+.button.gray {
+  background-color: #ddd;
+  color: #333;
+}
+
+.button.black {
+  background-color: #333;
+  color: white;
+}
+
+.button.pink {
+  background-color: #ff4d94;
+  color: white;
+}
+
+.button.orange {
+  background-color: #ff6600;
+  color: white;
+}
+
+/* Hover effects */
+.button:hover {
+  background-color: #bbb;
+}
+
+.button.black:hover {
+  background-color: #555;
+}
+
+.button.pink:hover {
+  background-color: #e60073;
+}
+
+.button.orange:hover {
+  background-color: #e65c00;
+}
